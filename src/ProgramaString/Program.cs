@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Runtime.CompilerServices;
 
 int somaVogais, somaConsoantes;
@@ -19,18 +19,15 @@ for (int i = 0; i < nome.Length; i++)
         switch (nome[i])
         {
             case 'a':
-                somaVogais++;
-                break;
             case 'e':
-                somaVogais++;
-                break;
             case 'i':
-                somaVogais++;
-                break;
             case 'o':
-                somaVogais++;
-                break;
             case 'u':
+            case 'á':
+            case 'é':
+            case 'í':
+            case 'ó':
+            case 'ú':
                 somaVogais++;
                 break;
             default:
